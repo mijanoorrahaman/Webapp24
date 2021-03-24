@@ -34,6 +34,8 @@ namespace Webapp24
                 {
                     await context.Response.WriteAsync("Hello World project by branch master/develop git v1.0" +
                         "this is new feature 2!");
+                    await context.Response.WriteAsync("Hello World project by branch master/develop git v1.0" +
+                        "this is new feature 3!");
                 });
             });
         }
