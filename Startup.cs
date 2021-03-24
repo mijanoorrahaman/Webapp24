@@ -32,7 +32,7 @@ namespace Webapp24
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World project by git v1.0!");
+                    await context.Response.WriteAsync("Hello World project by branch master git v1.0!");
                 });
             });
         }
